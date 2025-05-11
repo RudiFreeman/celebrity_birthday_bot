@@ -1,0 +1,7 @@
+# **Настройки канфигураций**
+
+KINOPOISK_API_TOKEN = 'PRBB8D1-YPA4JNG-K3NEEMH-0ZYMEY9'
+TELEGRAM_BOT_TOKEN = '7937571272:AAHX-iX2Rpmp_tuvL3OWPRpeOqYtkGveHpI'
+CHANNEL_ID = '@movies_in_the_heart'
+USER_ID = 585126800
+DB_NAME = 'published.db'
