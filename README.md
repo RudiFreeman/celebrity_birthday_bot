@@ -1,5 +1,11 @@
 проект собран на
-
+Python: 3.8.
+python-telegram-bot: 21.6 (поддерживает Telegram Bot API 8.3).
+python-dotenv: 1.0.1.
+requests (если используется): 2.32.3.
+SQLAlchemy (если используется): 2.0.35.
+Среда: macOS, Bash/Zsh, вероятно Visual Studio Code.
+Конфигурация: Токены в .env, зависимости в requirements.txt.
 
 
 
