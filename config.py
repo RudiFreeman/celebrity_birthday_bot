@@ -1,7 +1,10 @@
-# **Настройки канфигураций**
+from dotenv import load_dotenv
+import os
 
-KINOPOISK_API_TOKEN = 'PRBB8D1-YPA4JNG-K3NEEMH-0ZYMEY9'
-TELEGRAM_BOT_TOKEN = '7937571272:AAHX-iX2Rpmp_tuvL3OWPRpeOqYtkGveHpI'
-CHANNEL_ID = '@movies_in_the_heart'
-USER_ID = 585126800
-DB_NAME = 'published.db'
+load_dotenv()
+
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+KINOPOISK_API_TOKEN = os.getenv("KINOPOISK_API_TOKEN")
+CHANNEL_ID = os.getenv("CHANNEL_ID")
+USER_ID = int(os.getenv("USER_ID"))
+DB_NAME = os.getenv("DB_NAME")
